@@ -1,5 +1,7 @@
 <template>
-    $END$
+    <div class="header">
+        
+    </div>
 </template>
 
 <script>

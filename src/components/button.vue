@@ -1,14 +1,13 @@
 <template>
-    <button>{{text}}</button>
+    <button>{{label}}</button>
 </template>
 
 <script>
     export default {
         name: "button",
-        data() {
-            return {
-                text: '',
-            }
+        props: {
+            label: label,
+            link: link
         }
     }
 </script>
